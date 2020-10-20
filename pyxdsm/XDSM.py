@@ -15,7 +15,7 @@ tikzpicture_template = r"""
 
 %%% End Preamble Requirements %%%
 
-\input{{ {diagram_styles_path} }}
+\input{{{diagram_styles_path}}}
 \begin{{tikzpicture}}
 
 \matrix[MatrixSetup]{{
